@@ -99,11 +99,8 @@ function Index() {
       {/* Nav */}
       <header className="absolute top-0 left-0 right-0 z-20">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 text-white">
-          <a href="#top" className="flex items-center gap-3 font-bold tracking-tight">
-            <span className="grid h-11 w-11 place-items-center rounded-full bg-white p-1.5 shadow-lg">
-              <img src={logo} alt="PEMI FARMS logo" width={44} height={44} className="h-full w-full object-contain" />
-            </span>
-            <span className="text-lg">PEMI FARMS</span>
+          <a href="#top" className="flex items-center">
+            <img src={logo} alt="PEMI FARMS logo" width={1536} height={1024} className="h-12 w-auto brightness-0 invert" />
           </a>
           <div className="hidden gap-8 text-sm font-medium md:flex">
             <a href="#about" className="hover:text-white/80">About</a>
